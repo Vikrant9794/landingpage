@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    background: linear-gradient(to right, #ff8c00bd, #db34d5); 
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.cta-buttons button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cta-buttons button:hover {
+    background-color: #27ae60;
+}
+
+.head-second {
+    background-color: #c0c3c6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item nav a {
+    border-radius: 5px;
+    color: #070404;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    position: relative;
+    padding: 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.menu-item nav a:hover {
+    color: #ffffff;
+    background-color: #070404;
+}
+
+.search-icon {
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #100707;
+    margin-left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    color: #ffffff;
+    background-color: #070404;
+}
+
+.main-page {
+    text-align: center;
+}
+
+.main-page img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-page {
+    position: relative;
+    text-align: center;
+}
+
+.ctb-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.see-More,
+.request_Consult {
+    padding: 10px 20px;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.see-More {
+    background: linear-gradient(to right, #ff8c00bd, #db34d5); 
+    color: #fff;
+    border: 5px solid white;
+}
+.see-More:hover {
+    background: linear-gradient(to right, #eb7535, #cada16); 
+}
+
+.request_Consult {
+    background-color: rgba(255, 255, 255, .1);
+    color: #fff;
+    border: 5px solid rgb(217, 202, 202);
+}
+
+.request_Consult:hover {
+    background-color: rgba(193, 188, 188, 0.539);
+}
+
+/*Service Page */
+.services{
+    width: 700px;
+    height: 20px;
+   
+}
+.service-map{
+    background: linear-gradient(to right, #ff8c00bd, #db34d5); 
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.Service-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    
+  }
+
+  .Service-type a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .circle-icon {
+    width: 60px;
+    height: 60px;
+    border: 3px solid white;
+    border-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.item{
+    display: flex;
+}
+.content{
+  margin-top: 20px;
+}
+  .circle-icon a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em; /* Change the font size as needed */
+  }
+  .Service-type h2 {
+    margin-left: 10px;
+  }
+  .Service-type h4 {
+    display: contents;
+  }
+
+  .about {
+    padding: 20px; /* Add padding to create space around the content */
+    background-color: #f8f8f8; /* Set a background color for better visibility */
+}
+
+.about-us {
+    max-width: 800px; /* Set a maximum width to prevent the content from stretching too wide */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.about-us h1 {
+    color: #333; /* Set the text color */
+}
+
+.about-us p {
+    font-size: 16px; /* Set the font size for the paragraph */
+    line-height: 1.5; /* Set the line height for better readability */
+    color: #555; /* Set the text color */
+}
+
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-links,
+    .cta-buttons {
+        margin-top: 10px;
+    }
+
+    .menu-item nav a {
+        margin: 10px 0;
+    }
+
+    .search-icon {
+        margin-left: 0;
+    }
+}
